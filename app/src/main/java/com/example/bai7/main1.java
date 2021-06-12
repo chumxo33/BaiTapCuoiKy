@@ -93,21 +93,6 @@ public class main1 extends AppCompatActivity {
         soluong_miquang.setText(dialog_miquang);
         tong.setText(" ");
     }
-
-    public void xoa_btn (View view) {
-        TextView soluong_banhmi = (TextView) findViewById(R.id.soluong_banhmi);
-        TextView soluong_comga = (TextView) findViewById(R.id.soluong_comga);
-        TextView soluong_miquang = (TextView) findViewById(R.id.soluong_miquang);
-        TextView soluong_pho = (TextView) findViewById(R.id.soluong_pho);
-        TextView tong = (TextView) findViewById(R.id.tongtien);
-
-        soluong_banhmi.setText(0);
-        soluong_comga.setText(0);
-        soluong_miquang.setText(0);
-        soluong_pho.setText(0);
-        tong.setText(" ");
-    }
-
     public void pay_btn(View view){
         if(count_banhmi != 0 || count_comga != 0 || count_miquang !=0 || count_pho != 0)
         {
