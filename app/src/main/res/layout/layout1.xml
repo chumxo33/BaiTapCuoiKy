@@ -423,15 +423,28 @@
                         <TextView
                             android:id="@+id/huy"
                             android:layout_width="220dp"
-                            android:onClick="huy_btn"
                             android:layout_height="match_parent"
                             android:layout_weight="1"
-                            android:text="Hủy Đơn"
                             android:background="#FF6A6A"
-                            android:textStyle="bold"
-                            android:textSize="25dp"
+                            android:gravity="center"
+                            android:onClick="huy_btn"
+                            android:text="Hủy Đơn"
                             android:textColor="@color/white"
-                            android:gravity="center"/>
+                            android:textSize="25dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/refesh"
+                            android:layout_width="220dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="#C9090808"
+                            android:gravity="center"
+                            android:onClick="xoa_btn"
+                            android:text="Xoá hết"
+                            android:textColor="@color/white"
+                            android:textSize="25dp"
+                            android:textStyle="bold" />
 
                         <TextView
                             android:id="@+id/textView7"
